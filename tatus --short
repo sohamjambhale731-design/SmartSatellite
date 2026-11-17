@@ -1,0 +1,28 @@
+ .gitignore                        |  41 [32m+++++[m
+ README.md                         | 115 [32m++++++++++++[m
+ app.py                            |   0
+ download_flood_model.py           |  65 [32m+++++++[m
+ download_kuro_sample.py           |  31 [32m++++[m
+ download_kuro_test.py             |  31 [32m++++[m
+ evaluate_kuro_100.py              | 376 [32m++++++++++++++++++++++++++++++++++++++[m
+ evaluate_kuro_sample.py           | 196 [32m++++++++++++++++++++[m
+ evaluate_kuro_test_100.py         | 376 [32m++++++++++++++++++++++++++++++++++++++[m
+ inspect_kuro_dataset.py           |  24 [32m+++[m
+ inspect_kuro_sample_data.py       |  52 [32m++++++[m
+ inspect_kuro_splits.py            |  32 [32m++++[m
+ inspect_kuro_test_sample.py       |  56 [32m++++++[m
+ inspect_test_shards.py            |  31 [32m++++[m
+ models/flood_unet/model_card.json | 146 [32m+++++++++++++++[m
+ models/flood_unet/norm.json       |   1 [32m+[m
+ requirements.txt                  |   5 [32m+[m
+ services/evaluation.py            |   0
+ services/flood_detection.py       |   0
+ services/preprocessing.py         |   1 [32m+[m
+ templates/about.html              |   0
+ templates/analysis.html           |   0
+ templates/index.html              |   0
+ templates/methodology.html        |   0
+ test_flood_inference.py           |  87 [32m+++++++++[m
+ test_gpu.py                       |  41 [32m+++++[m
+ visualize_kuro_sample.py          |  48 [32m+++++[m
+ 27 files changed, 1755 insertions(+)

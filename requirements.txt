@@ -1,0 +1,5 @@
+numpy
+onnxruntime-gpu[cuda,cudnn]==1.26.0
+huggingface_hub
+matplotlib
+onnx
